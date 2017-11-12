@@ -1,0 +1,196 @@
+@@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+/* Header **/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:20px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+.xop-section{
+     margin: 0 ;
+     padding: 6% 2%;
+     background-color: #D5DBDB;
+}
+.xop-grid{
+     margin: 0 ;
+     padding: 0;
+     list-style: none;
+     display: block;
+     text-align: center;
+     width: 100%;
+}
+.xop-grid:after{
+     clear: both;
+}
+.xop-grid :after,.xop-grid:before{
+      content:"":
+      display: table;
+}
+.xop-grid li{
+      width: 328px;
+      height: 328px;
+      display: inline-block;
+      margin: 20px;
+}
+.xop-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition:0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -moz-transition:0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+     transition:0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.xop-box:hover{
+     transform: scale3d(1.05);
+}
+.xop-img-1{
+     background:
+     url('food11.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.xop-img-2{
+     background:
+     url('food12.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.xop-img-3{
+     background:
+     url('food10.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.xop-img-4{
+     background:
+     url('food4.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.xop-img-5{
+     background:
+     url('food5.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.xop-img-6{
+     background:
+     url('food6.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+.xop-img-7{
+     background:
+     url('food7.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.xop-img-8{
+     background:
+     url('food8.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.xop-img-9{
+     background:
+     url('food9.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.xop-img-10{
+     background:
+     url('food1.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.xop-img-11{
+     background:
+     url('food2.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.xop-img-12{
+     background:
+     url('food4.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.xopinfo{
+   position: absolute;
+   width: inherit;
+   height: inherit;
+}
+.xop-info h3{
+     font-family:'Pacifico',cursive;
+     font-weight: 400;
+     color: #fff;
+     font-size: 42px;
+     margin: 0 30px;
+     padding: 100px 0 0 0;
+     line-height: 1.5;
+}
+.xop-info p{
+     font-family: 'source sans pro',sans-serif;
+     color: #fff;
+}
+footer{
+  padding: 10px;
+  margin-top: 20px;
+  background-color:#148F77;
+  text-align: center;
+}

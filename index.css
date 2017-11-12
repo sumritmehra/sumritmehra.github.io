@@ -1,0 +1,107 @@
+body{
+  font-family: arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #D5DBDB;
+}
+/*global*/
+.container{
+  width: 80%%;
+  margin: auto;
+  overflow: hidden;
+}
+.button_1{
+  height:40px;
+  width: 40px;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*header*/
+
+header{
+  background:#D5DBDB;
+  color:white;
+  min-height: 30px;
+  border-bottom:#3498DB 20px solid;
+}
+
+
+/*showcase*/
+#showcase{
+  min-height: 100px;
+  background: url('bg header.jpg') no-repeat 0 ;
+  background-size: cover;
+  text-align: center;
+}
+#showcase h1{
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 50px;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+#showcase p{
+  font-size: 40px;
+  font-family: serif;
+}
+#fidato{
+  padding: 10px;
+  background:#3498DB;
+  color:#5D6D7E;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#fidato input[type="search"]{
+  padding: 4px;
+  height: 40px;
+  width: 600px;
+}
+#fidato ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+#fidato ul li{
+  float: left;
+  width: 150px;
+  height: 40pz;
+  line-height: 40px;
+  text-align: center;
+}
+#fidato ul li a{
+  text-decoration: none;
+  display: block;
+}
+#fidato ul li a:hover{
+   background-color:#ECF0F1;
+}
+#fidato ul li ul li{
+  display: none;
+  opacity: .8;
+}
+#fidato ul li:hover ul li{
+  display: block;
+}
+/*boxes*/
+#boxes{
+  margin: 20px;
+}
+#boxes .box{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+#boxes .box img{
+  width:280px;
+}
+footer{
+  padding: 10px;
+  margin-top: 20px;
+  background-color:#148F77;
+  text-align: center;
+}
